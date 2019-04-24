@@ -1,0 +1,12 @@
+{
+    "name": "rejstriky-info",
+    "productName": "Rejstriky.info",
+    "version": "2.0.0",
+    "description": "Rejstriky.info ",
+    "keywords": [],
+    "author": "michaljakubeczy",
+    "dependencies": {
+        "uglify-js": "^3.4.9",
+        "uglifycss": "0.0.29"
+    }
+}

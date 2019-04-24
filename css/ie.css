@@ -1,0 +1,10 @@
+header, nav, section, article, aside, footer, hgroup, time {
+  display: block;
+}
+
+@media \0screen {
+  img {
+    width: auto;
+  }
+}
+/* Prevent height distortion in IE8. */

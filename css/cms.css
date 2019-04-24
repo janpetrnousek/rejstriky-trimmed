@@ -1,0 +1,65 @@
+body {
+    font-family: "Open Sans", sans-serif;    
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 40px;
+    top: 0;
+    background: #1c404f;
+}
+
+nav a {
+    display: block;
+    float: left;
+    padding: 10px 15px 0 15px;
+    border-right: 1px solid #777;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    height: 30px;
+}
+
+nav a:first-child {
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+nav a:hover {
+    background: #00202f;
+    text-decoration: underline;
+}
+
+nav a:last-child, nav a:first-child, nav a:nth-last-child(2) {
+    border-right: 0;
+}
+
+main {
+    margin-top: 50px;
+    width: 100%;
+}
+
+main .login  {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+main .login h1 {
+    font-size: 14px;
+}
+
+main .login input {
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+main .login input[type=submit] {
+    width: 100px;
+}

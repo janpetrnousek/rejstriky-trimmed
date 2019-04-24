@@ -1,0 +1,10 @@
+stages:
+  - deploy
+
+publish:
+  stage: deploy
+  only:
+    - master
+  script:
+    - apt-get install lftp
+    - lftp -e "mirror -R ./ ./web/new" -u rejstriky.info,jammer00 rejstriky.info
