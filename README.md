@@ -1,0 +1,1 @@
+# rejstriky-trimmed
