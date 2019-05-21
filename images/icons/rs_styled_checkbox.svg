@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7">
-<defs>
-    <style>
-      .cls-1 {
-        fill: #0d1e24;
-      }
-    </style>
-  </defs>
-  <path id="Obdélník_15_kopie_25" data-name="Obdélník 15 kopie 25" class="cls-1" d="M1033.61,628.1l3.47,3.305-1.62,1.6L1032,629.7Zm6.01-2.1,1.38,1.4-5.54,5.6-1.61-1.6Z" transform="translate(-1032 -626)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7"><defs><style>.cls-1{fill:#0d1e24}</style></defs><path id="Obdélník_15_kopie_25" data-name="Obdélník 15 kopie 25" class="cls-1" d="M1033.61 628.1l3.47 3.305-1.62 1.6-3.46-3.305zm6.01-2.1l1.38 1.4-5.54 5.6-1.61-1.6z" transform="translate(-1032 -626)"/></svg>

@@ -1,3 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="24" viewBox="0 0 19 24">
-  <path id="ribbon" class="cls-1" d="M257,199V223l9.5-7,9.5,7V199H257Zm17.994,22.013-7.905-5.824-0.593-.437-0.593.437-7.9,5.824V200h17v21.013ZM271.493,205h-10v1h10v-1Zm0,4h-10v1h10v-1Z" transform="translate(-257 -199)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="24" viewBox="0 0 19 24"><path class="cls-1" d="M0 0v24l9.5-7 9.5 7V0H0zm17.994 22.013l-7.905-5.824-.593-.437-.593.437-7.9 5.824V1h17v21.013zM14.493 6h-10v1h10V6zm0 4h-10v1h10v-1z"/></svg>
