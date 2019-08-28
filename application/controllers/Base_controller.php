@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-require_once APPPATH . 'controllers/Auth.php';
+
 
 class Base_controller extends CI_Controller
 {
