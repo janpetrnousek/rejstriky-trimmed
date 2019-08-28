@@ -24,6 +24,7 @@ class Register extends Base_controller {
 
 	public function index()
 	{
+		$data['google_login_url']=$this->google->get_login_url();
 		$data['title'] = 'Registrace';
 
 		$this->load->view('inc/header', $data);

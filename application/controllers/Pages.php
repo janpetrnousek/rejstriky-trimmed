@@ -10,10 +10,13 @@ class Pages extends Base_controller {
 
 		$this->load->model('common_model');
 		$this->load->model('or_model');
+
 	}
 
 	public function index()
 	{
+		$data['google_login_url']=$this->google->get_login_url();
+    
 		$data['new_companies'] = $this->or_model->get_newest();
 		$data['law_forms'] = $this->common_model->load_law_forms();
 
@@ -21,6 +24,7 @@ class Pages extends Base_controller {
 		$this->load->view('inc/header_search', $data);
 		$this->load->view('home', $data);
 		$this->load->view('inc/footer');
+
 	}
 
 	public function content() {
@@ -43,4 +47,6 @@ class Pages extends Base_controller {
 		$this->load->view('content', $data);
 		$this->load->view('inc/footer');
 	}
+  
+  
 }

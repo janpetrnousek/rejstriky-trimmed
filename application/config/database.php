@@ -76,7 +76,7 @@ $query_builder = TRUE;
 $isDevelopment = ENVIRONMENT !== 'production';
 $default_options = array(
 	'dsn'	=> '',
-	'hostname' => $isDevelopment ? 'localhost:3307' : '/tmp/mariadb101.sock',
+	'hostname' => $isDevelopment ? 'localhost:3306' : '/tmp/mariadb101.sock',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

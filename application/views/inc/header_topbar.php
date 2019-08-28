@@ -24,11 +24,18 @@
             <a href="odhlasit">odhlásit</a>
         </div>
     </nav>
-
+    
     <?php } else { ?>
 
     <nav class="main_header__top_nav">
         <ul class="main_header__top_nav__menu">
+           <li>				<?php 
+				if($this->session->userdata('sess_logged_in')==0){?>
+					<a href="<?=$google_login_url?>"class="">Google login</a>
+				<?php }else{?>
+					<a href="<?=base_url()?>auth/logout" class=""><i class=""></i>Google logout</a>
+				<?php }
+				?></li>
             <li><a href="registrace">Registrovat</a></li>
             <li><a href="prihlasit">Přihlásit</a></li>
         </ul>
